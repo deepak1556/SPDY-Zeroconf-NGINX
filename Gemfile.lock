@@ -1,0 +1,23 @@
+GIT
+  remote: https://github.com/igrigorik/spdy.git
+  revision: 91f61f4e0f11b562b075c24003c2d00dfa7e3bab
+  specs:
+    spdy (0.0.4)
+      bindata
+      ffi-zlib
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bindata (1.5.0)
+    ffi (1.8.1)
+    ffi-zlib (0.2.0)
+      ffi
+    zmq (2.1.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  spdy!
+  zmq
