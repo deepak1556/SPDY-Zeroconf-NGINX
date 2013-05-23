@@ -7,7 +7,7 @@
 typedef struct {
   size_t       buffer_size;
   u_char       *buffer;
-}ngx__http_zmq_main_conf_t;
+}ngx_http_zmq_main_conf_t;
 
 // Initialize a socket connection
 
